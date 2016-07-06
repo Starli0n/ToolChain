@@ -1,6 +1,6 @@
 {
   "name": "Toolchain",
   "tagline": "Configuration of useful tools",
-  "body": "Portable applications install in `%TOOLS%`\r\n\r\n* [Wox](Wox)",
+  "body": "### Portable applications install in `%TOOLS%`\r\n\r\n* [Wox](Wox)",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
