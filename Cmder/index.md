@@ -88,8 +88,8 @@ tfs_clean=tfpt uu /noget /r *
 ````
 
 * Fixing the [issue](https://github.com/cmderdev/cmder/issues/684) with expanding environment variables in aliases
-** Backup `%CMDER_ROOT%\vendor\clink`
-** Replace by [this one](https://www.dropbox.com/sh/hqbrpkf0dpmmizq/AADIJ4G5gjJ59JfFmr-3-Qc0a/20150923_1abb57/clink_DEV.zip?dl=0)
+    * Backup `%CMDER_ROOT%\vendor\clink`
+    * Replace by [this one](https://www.dropbox.com/sh/hqbrpkf0dpmmizq/AADIJ4G5gjJ59JfFmr-3-Qc0a/20150923_1abb57/clink_DEV.zip?dl=0)
 
 ### Settings
 
