@@ -5,6 +5,8 @@ layout: default
 
 ## Cmder - Portable console emulator for Windows
 
+[https://github.com/Starli0n/Tool_Cmder](https://github.com/Starli0n/Tool_Cmder)
+
 {:toc}
 
 
@@ -98,8 +100,13 @@ tfs_clean=tfpt uu /noget /r *
 * `Main > Size & Pos`
 ☑ Auto save window size and position on exit
 
+![Settings-Main](Settings-Main.bmp)
+
 * `Keys & Macro`
 Global Ctrl+² Minimize/Restore (Quake-style hotkey also)
+
+![Settings-KeysMacro](Settings-KeysMacro.bmp)
+
 
 ---
 
