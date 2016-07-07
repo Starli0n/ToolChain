@@ -8,7 +8,7 @@ layout: default
 
 ### Install
 
-* [Download Cmder (mini)](http://cmder.net)
+* [Download Cmder (mini)](http://cmder.net) (v1.2.9)
 * Copy exe to `%TOOLS%\cmder_mini\`
 * Add environment variables `%CMDER_ROOT% = %TOOLS%\cmder_mini`
 
@@ -68,8 +68,9 @@ e.=explorer .
 gl=git log --oneline --all --graph --decorate  $*
 gv=g --version
 clear=cls
-hist=echo type %CMDER_ROOT%\config\.history
-chelp=type D:\Tools\cmder_mini\config\aliases
+hist=type %CMDER_ROOT%\config\.history
+clearh=echo.>%CMDER_ROOT%\config\.history
+chelp=type %CMDER_ROOT%\config\aliases
 unalias=alias /d $1
 upath=spath -u
 pwd=cd
@@ -79,11 +80,16 @@ ll=gs ls -l --show-control-chars -F --color $*
 which=gs which $*
 ph=pushd $*
 pp=popd $*
+subld=subl -n %CD%
 
 slist=tasklist /FI "IMAGENAME eq w3wp.exe"
 skill=taskkill /F /FI "IMAGENAME eq w3wp.exe"
 tfs_clean=tfpt uu /noget /r *
 ````
+
+* Fixing the [issue](https://github.com/cmderdev/cmder/issues/684) with expanding environment variables in aliases
+** Backup `%CMDER_ROOT%\vendor\clink`
+** Replace by [this one](https://www.dropbox.com/sh/hqbrpkf0dpmmizq/AADIJ4G5gjJ59JfFmr-3-Qc0a/20150923_1abb57/clink_DEV.zip?dl=0)
 
 ### Settings
 
