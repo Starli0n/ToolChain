@@ -5,14 +5,17 @@ layout: default
 
 ## Wox - An effective launcher for windows
 
+{:toc}
+
+
 ### Install
 
  * [Download Wox](http://www.getwox.com)
- * Copy exe to `%TOOLS%\Wox\Wox.exe`
+ * App is installed here `%AppData%\..\Local\Wox\`
 
 Personal settings are located in `%AppData%\Wox\` directory. [(No more Portable version)](https://github.com/Wox-launcher/Wox/issues/629)
 
-Be aware that at that time (v.1.3.67), Wox does not [expand environment variables](https://github.com/Wox-launcher/Wox/issues/816)
+Be aware that at that time (v.1.3.183), Wox does not [expand environment variables](https://github.com/Wox-launcher/Wox/issues/816)
 
 [[Wox Documentation]](http://doc.getwox.com/en/index.html)
 
@@ -39,7 +42,7 @@ Be aware that at that time (v.1.3.67), Wox does not [expand environment variable
     ☑ Disable
 
 * Folder
-    * `C:\xampp\htdocs\boilerplatedownloader`
+    * `C:\xampp\htdocs`
     * `D:\Dev`
     * `D:\Downloads`
     * `D:\Source`
@@ -50,7 +53,7 @@ Be aware that at that time (v.1.3.67), Wox does not [expand environment variable
 {
   "FolderLinks": [
     {
-      "Path": "C:\\xampp\\htdocs\\boilerplatedownloader"
+      "Path": "C:\\xampp\\htdocs"
     },
     {
       "Path": "D:\\Dev"
@@ -99,8 +102,8 @@ Hotkey | Action keywords | Action
 -------|-----------------|-------
 `Ctrl + Shift + V` | `cb·` | Clipboard
 `Alt + G` | `g·` | Google search
-`Alt + L` | `l·` | Google Lucky
-`Alt + T` | `wr·` | Wordreference
+`Ctrl + Alt + L` | `l·` | Google Lucky
+`Ctrl + Alt + T` | `wr·` | Wordreference
 
 Or in `%AppData%\Wox\Settings\Settings.json`
 
@@ -115,11 +118,11 @@ Or in `%AppData%\Wox\Settings\Settings.json`
       "ActionKeyword": "g "
     },
     {
-      "Hotkey": "Alt + T",
+      "Hotkey": "Ctrl + Alt + T",
       "ActionKeyword": "wr "
     },
     {
-      "Hotkey": "Alt + L",
+      "Hotkey": "Ctrl + Alt + L",
       "ActionKeyword": "l "
     }
   ]

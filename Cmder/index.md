@@ -5,6 +5,8 @@ layout: default
 
 ## Cmder - Portable console emulator for Windows
 
+{:toc}
+
 
 ### Install
 
