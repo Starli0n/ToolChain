@@ -84,7 +84,9 @@ ll=gs ls -l --show-control-chars -F --color $*
 which=gs which $*
 ph=pushd $*
 pp=popd $*
+sub="%CMDER_ROOT%\vendor\SublimeText\sublime_text.exe" $1 -new_console:s50V
 subld=subl -n %CD%
+checksum=fciv.exe -both $*
 
 slist=tasklist /FI "IMAGENAME eq w3wp.exe"
 skill=taskkill /F /FI "IMAGENAME eq w3wp.exe"
@@ -107,6 +109,30 @@ Global Ctrl+² Minimize/Restore (Quake-style hotkey also)
 
 ![Settings-KeysMacro](Settings-KeysMacro.bmp)
 
+
+### Integrate Cmder and Sublime Text seamlessly
+
+[a-neat-way-integrate-cmder-and-sublime-text-seamlessly](http://laravel.io/forum/02-24-2014-a-neat-way-integrate-cmder-and-sublime-text-seamlessly)
+
+* Download a portable version of Sublime Text 3 from [their website](https://www.sublimetext.com/3)
+* Extract to `%CMDER_ROOT%\vendor\SublimeText`
+* Use `sub` to use Sublime Text integrated to Cmder or `subl` to use the general one.
+
+#### Sublime Text 3 - Settings
+
+* `View > Hide Menu`
+* `View > Hide Tabs`
+* Open `Preferences > Settings - User`
+
+````
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+{
+    "close_windows_when_empty": true,
+    "hot_exit": false,
+    "remember_open_files": false
+}
+````
 
 ---
 
