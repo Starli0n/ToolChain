@@ -3,11 +3,29 @@ title: Toolchain
 layout: default
 ---
 
-### Portable applications install in `%TOOLS%`
+### Installed applications
+
+* [AgentRansack](https://www.mythicsoft.com/agentransack)
+* [AutoHotkey](https://autohotkey.com)
+* [Copy Path to Clipboard](http://stefan.bertels.org/en/clipboardpath) ([st](https://github.com/Starli0n/SublimeUser#add-copy-path-to-clipboard-feature-to-the-right-click-context-menu))
+* [Node.js](https://nodejs.org)
+* [Python27](https://www.python.org)
+* [Visual Studio](https://www.visualstudio.com)
+* [WinDirStat](https://windirstat.info)
+* [WinMerge](http://winmerge.org) ([st](https://github.com/Starli0n/SublimeUser#configure-filediff-command-1))
+* [XAMPP](https://www.apachefriends.org) ([st](https://github.com/Starli0n/SublimeUser#win-install-xdebug-with-xampp))
+* [xplorer² lite](http://zabkat.com/x2lite.htm)
+
+
+### Portable applications installed in `%TOOLS%`
 
 * [Cmder](Cmder)
+* [Git](https://git-scm.com)
+* [PureText 4.0](http://stevemiller.net/puretext)
 * [SublimeText](https://github.com/Starli0n/SublimeUser)
+* [System](System)
 * [Wox](Wox)
+
 
 ### Environment variables
 
@@ -23,8 +41,32 @@ Name | Value
 `XDEBUG_SESSION` | `sublime.xdebug`
 
 
+In `Cmder`
+
+````
+λ spath
+PATH=
+D:\Tools\cmder_mini\bin
+D:\Tools\PortableGit\bin
+D:\Tools\PortableGit\share\vim\vim74
+D:\Tools\cmder_mini\vendor\conemu-maximus5
+D:\Tools\cmder_mini\vendor\conemu-maximus5\ConEmu
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\Program Files\nodejs\
+D:\Tools\System
+D:\Tools\SublimeText\Data\Packages\User\Resources\Windows\bin
+D:\Tools\PortableGit\bin
+D:\Tools\go\bin
+D:\Source\go\bin
+C:\Python27
+C:\Python27\Scripts
+C:\xampp\php
+C:\Users\Starli0n\AppData\Roaming\npm
+D:\Tools\cmder_mini
+````
+
+
 ### Application shortcuts
 
 [Shortcut](shortcut.html)
-
-

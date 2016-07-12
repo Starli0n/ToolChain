@@ -3,6 +3,11 @@ title: Shortcut
 layout: default
 ---
 
+### AutoHotkey
+
+[Shortcut](https://github.com/Starli0n/Tool_System/blob/master/Shortcut.ahk)
+
+
 ### Cmder
 
 Shortcut | Action
