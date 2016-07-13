@@ -11,7 +11,7 @@ layout: default
 * [Copy Path to Clipboard](http://stefan.bertels.org/en/clipboardpath) ([st](https://github.com/Starli0n/SublimeUser#add-copy-path-to-clipboard-feature-to-the-right-click-context-menu))
 * [Node.js](https://nodejs.org)
 * [Python27](https://www.python.org)
-* [Visual Studio](https://www.visualstudio.com)
+* [Visual Studio](VisualStudio)
 * [WinDirStat](https://windirstat.info)
 * [WinMerge](http://winmerge.org) ([st](https://github.com/Starli0n/SublimeUser#configure-filediff-command-1))
 * [XAMPP](https://www.apachefriends.org) ([st](https://github.com/Starli0n/SublimeUser#win-install-xdebug-with-xampp))
