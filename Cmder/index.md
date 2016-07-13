@@ -65,34 +65,7 @@ by
 
 ### Aliases
 
-* Edit `%CMDER_ROOT%\config\aliases` to add some aliases
-
-````
-e.=explorer .
-gl=git log --oneline --all --graph --decorate  $*
-gv=g --version
-clear=cls
-hist=type %CMDER_ROOT%\config\.history
-clearh=echo.>%CMDER_ROOT%\config\.history
-chelp=type %CMDER_ROOT%\config\aliases
-unalias=alias /d $1
-upath=spath -u
-pwd=cd
-cd=cd /d $*
-..=cd..
-ll=gs ls -l --show-control-chars -F --color $*
-which=gs which $*
-ph=pushd $*
-pp=popd $*
-sub="%CMDER_ROOT%\vendor\SublimeText\sublime_text.exe" $1 -new_console:s50V
-subld=subl -n %CD%
-checksum=fciv.exe -both $*
-
-slist=tasklist /FI "IMAGENAME eq w3wp.exe"
-skill=taskkill /F /FI "IMAGENAME eq w3wp.exe"
-tfs_clean=tfpt uu /noget /r *
-````
-
+* Edit `%CMDER_ROOT%\config\aliases` to add some [aliases](https://github.com/Starli0n/Tool_Cmder/blob/master/config/aliases)
 * Fixing the [issue](https://github.com/cmderdev/cmder/issues/684) with expanding environment variables in aliases
     * Backup `%CMDER_ROOT%\vendor\clink`
     * Replace by [this one](https://www.dropbox.com/sh/hqbrpkf0dpmmizq/AADIJ4G5gjJ59JfFmr-3-Qc0a/20150923_1abb57/clink_DEV.zip?dl=0)

@@ -5,6 +5,7 @@ layout: default
 
 ### Installed applications
 
+* [7-zip](http://www.7-zip.org)
 * [AgentRansack](https://www.mythicsoft.com/agentransack)
 * [AutoHotkey](https://autohotkey.com)
 * [Copy Path to Clipboard](http://stefan.bertels.org/en/clipboardpath) ([st](https://github.com/Starli0n/SublimeUser#add-copy-path-to-clipboard-feature-to-the-right-click-context-menu))
