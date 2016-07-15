@@ -49,7 +49,7 @@ Be aware that at that time (v.1.3.183), Wox does not [expand environment variabl
     * `D:\Downloads`
     * `D:\Source`
     * `D:\Tools`<br/>
-    `%AppData%\Wox\Settings\Plugins\Wox.Plugin.Folder\Settings.json` ([Tool_Wox](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Plugins/Wox.Plugin.Folder/Settings.json))
+    `%AppData%\Wox\Settings\Plugins\Wox.Plugin.Folder\Settings.json` [[Tool_Wox]](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Plugins/Wox.Plugin.Folder/Settings.json)
 
 * Program
     * `%TOOLS%\FirefoxPortable`
@@ -57,7 +57,7 @@ Be aware that at that time (v.1.3.183), Wox does not [expand environment variabl
     * `%TOOLS%\cmder_mini`
     * `%TOOLS%\SublimeText`<br/>
     (Add with `Max Depth = 0`)<br/>
-    `%AppData%\Wox\Settings\Plugins\Wox.Plugin.Program\Settings.json` ([Tool_Wox](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Plugins/Wox.Plugin.Program/Settings.json))
+    `%AppData%\Wox\Settings\Plugins\Wox.Plugin.Program\Settings.json` [[Tool_Wox]](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Plugins/Wox.Plugin.Program/Settings.json)
 
 
 * Web Searches
@@ -85,7 +85,7 @@ Hotkey | Action keywords | Action
 `Ctrl + Alt + L` | `l·` | Google Lucky
 `Ctrl + Alt + T` | `wr·` | Wordreference
 
-Or in `%AppData%\Wox\Settings\Settings.json` ([Tool_Wox](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Settings.json))
+Or in `%AppData%\Wox\Settings\Settings.json` [[Tool_Wox]](https://github.com/Starli0n/Tool_Wox/blob/master/Settings/Settings.json)
 
 ````
   "CustomPluginHotkeys": [

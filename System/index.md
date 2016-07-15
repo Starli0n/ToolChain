@@ -12,8 +12,8 @@ layout: default
 
 ### PHP
 
-* [Composer](https://getcomposer.org) ([st](https://github.com/Starli0n/SublimeUser#composer))
-* [PHPUnit 5.2.6](https://phpunit.de) ([st](https://github.com/Starli0n/SublimeUser#phpunit))
+* [Composer](https://getcomposer.org) [[st]](https://github.com/Starli0n/SublimeUser#composer)
+* [PHPUnit 5.2.6](https://phpunit.de) [[st]](https://github.com/Starli0n/SublimeUser#phpunit)
 
 
 ### Miscellaneous
