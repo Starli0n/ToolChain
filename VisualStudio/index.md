@@ -75,7 +75,21 @@ Erase the registry key `[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\
 
 ### Extensions
 
-[TODO]
+`Tools > Extensions and Updates...`
+
+* [Browser Reload on Save](https://visualstudiogallery.msdn.microsoft.com/46eef4d9-045b-4596-bd7f-eee980bb5450)
+* [CodeMaid](http://www.codemaid.net)
+* [Favorite Documents](https://vlasovstudio.com/favorite-documents)
+* [GitFlow for Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a)
+* [Markdown Editor](https://github.com/madskristensen/MarkdownEditor)
+* [Microsoft Visual Studio Team Foundation Server 2015 Power Tools](https://visualstudiogallery.msdn.microsoft.com/898a828a-af00-42c6-bbb2-530dc7b8f2e1)
+* [MixEdit](http://www.codinglabs.net/MixEdit.aspx)
+* [NUnit 3 Test Adapter](https://visualstudiogallery.msdn.microsoft.com/0da0f6bd-9bb6-4ae3-87a8-537788622f2d)
+* [PHP Tools for Visual Studio](https://www.devsense.com)
+* [Productivity Power Tools 2015](https://visualstudiogallery.msdn.microsoft.com/34ebc6a2-2777-421d-8914-e29c1dfa7f5d)
+* [Test Generator NUnit extension](https://visualstudiogallery.msdn.microsoft.com/bd30bf3f-4183-4b00-a245-1875316b8cd3)
+* [Web Essentials](http://vswebessentials.com)
+* [Web Extension Pack](https://visualstudiogallery.msdn.microsoft.com/f3b504c6-0095-42f1-a989-51d5fc2a8459)
 
 
 ---
