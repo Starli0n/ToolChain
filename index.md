@@ -21,6 +21,7 @@ layout: default
 ### Portable applications installed in `%TOOLS%`
 
 * [Cmder](Cmder) [[st]](https://github.com/Starli0n/SublimeCmder) [[vs]](https://starli0n.github.io/ToolChain/VisualStudio)
+* [FirefoxPortable](Firefox)
 * [Git](https://git-scm.com)
 * [PureText 4.0](http://stevemiller.net/puretext)
 * [SublimeText](https://github.com/Starli0n/SublimeUser)
