@@ -8,13 +8,15 @@ layout: default
 * [7-zip](http://www.7-zip.org)
 * [AgentRansack](https://www.mythicsoft.com/agentransack) [[st]](https://github.com/Starli0n/SublimeAgentRansack)
 * [AutoHotkey](https://autohotkey.com)
+* [Clover](http://ejie.me)
 * [Copy Path to Clipboard](http://stefan.bertels.org/en/clipboardpath) [[st]](https://github.com/Starli0n/SublimeUser#add-copy-path-to-clipboard-feature-to-the-right-click-context-menu)
+* [Docker](Docker)
 * [Node.js](https://nodejs.org)
 * [Python27](https://www.python.org)
 * [Visual Studio](VisualStudio)
 * [WinDirStat](https://windirstat.info)
 * [WinMerge](http://winmerge.org) [[git]](https://github.com/Starli0n/SublimeUser/blob/master/Resources/Windows/HOME/.gitconfig) [[st]](https://github.com/Starli0n/SublimeUser#configure-filediff-command-1) [[vs]](https://starli0n.github.io/ToolChain/VisualStudio)
-* [XAMPP](https://www.apachefriends.org) [[st]](https://github.com/Starli0n/SublimeUser#win-install-xdebug-with-xampp)
+* [XAMPP](Xampp) [[st]](https://github.com/Starli0n/SublimeUser#win-install-xdebug-with-xampp)
 * [xplorer² lite](http://zabkat.com/x2lite.htm)
 
 
@@ -40,13 +42,18 @@ Name | Value
 `GOBIN` | `D:\Source\Go\bin`
 `GOPATH` | `D:\Source\Go`
 `GOROOT` | `%TOOLS%\go`
+`DOCKER_TOOLBOX_INSTALL_PATH` | `C:\Program Files\Docker Toolbox`
+`VBOX_MSI_INSTALL_PATH` | `C:\Program Files\Oracle\VirtualBox\`
 `XDEBUG_SESSION` | `sublime.xdebug`
+`NODE_PATH` | `%USERPROFILE%\AppData\Roaming\npm\node_modules`
+`JAVA_HOME` | `%TOOLS%\Java`
+`ANT_HOME` | `%TOOLS%\Java\App\apache-ant`
 
 
 In `Cmder`
 
-````
-λ spath
+```
+λ spath -u
 PATH=
 D:\Tools\cmder_mini\bin
 D:\Tools\PortableGit\bin
@@ -59,14 +66,19 @@ C:\Program Files\nodejs\
 D:\Tools\System
 D:\Tools\SublimeText\Data\Packages\User\Resources\Windows\bin
 D:\Tools\PortableGit\bin
+D:\Tools\PortableGit\usr\bin
 D:\Tools\go\bin
 D:\Source\go\bin
 C:\Python27
 C:\Python27\Scripts
 C:\xampp\php
+C:\Program Files\nodejs
 C:\Users\Starli0n\AppData\Roaming\npm
 D:\Tools\cmder_mini
-````
+C:\Program Files\Docker Toolbox
+D:\Tools\Java\bin
+D:\Tools\Java\App\apache-ant\bin
+```
 
 
 ### Application shortcuts
