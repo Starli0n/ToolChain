@@ -12,73 +12,38 @@ layout: default
 
 ### Install
 
-* [Download Cmder (mini)](http://cmder.net) (v1.2.9)
+* [Download Cmder (mini)](http://cmder.net) (v1.3.2)
 * Copy exe to `%TOOLS%\cmder_mini\`
 * Add environment variables `%CMDER_ROOT% = %TOOLS%\cmder_mini`
-
-
-### Init
-
-* Edit `%CMDER_ROOT%\vendor\init.bat`
-
-Assuming `%TOOLS%\PortableGit`, replace
-
-````
-:: Check if msysgit is installed
-@if exist "%ProgramFiles%\Git" (
-    set "GIT_INSTALL_ROOT=%ProgramFiles%\Git"
-) else if exist "%ProgramFiles(x86)%\Git" (
-    set "GIT_INSTALL_ROOT=%ProgramFiles(x86)%\Git"
-) else if exist "%CMDER_ROOT%\vendor" (
-    set "GIT_INSTALL_ROOT=%CMDER_ROOT%\vendor\git-for-windows"
-)
-````
-
-by
-
-````
-:: Check if msysgit is installed
-@if exist "%TOOLS%\PortableGit" (
-    set "GIT_INSTALL_ROOT=%TOOLS%\PortableGit"
-) else if exist "%ProgramFiles%\Git" (
-    set "GIT_INSTALL_ROOT=%ProgramFiles%\Git"
-) else if exist "%ProgramFiles(x86)%\Git" (
-    set "GIT_INSTALL_ROOT=%ProgramFiles(x86)%\Git"
-) else if exist "%CMDER_ROOT%\vendor\git-for-windows" (
-    set "GIT_INSTALL_ROOT=%CMDER_ROOT%\vendor\git-for-windows"
-)
-````
-
-
-* Remove `%GIT_INSTALL_ROOT%\usr\bin;` because `which` does not do its job (use `which=gs which $*` in `aliases` instead)
-
-````
-:: Add git to the path
-@if defined GIT_INSTALL_ROOT (
-    ::%GIT_INSTALL_ROOT%\usr\bin;
-    set "PATH=%GIT_INSTALL_ROOT%\bin;%GIT_INSTALL_ROOT%\share\vim\vim74;%PATH%"
-    :: define SVN_SSH so we can use git svn with ssh svn repositories
-    if not defined SVN_SSH set "SVN_SSH=%GIT_INSTALL_ROOT:\=\\%\\bin\\ssh.exe"
-)
-````
+* Change to a [powerline prompt](https://github.com/AmrEldib/cmder-powerline-prompt)
+	* Install the `Hack` font from `%CMDER_ROOT%\vendor\powerline-fonts\Hack\Hack-Regular.ttf
+	* Download the `powerline_prompt.lua` file, and place it in `%CMDER_ROOT%\config` folder
+	* Restart Cmder
+	* Change the font in the settings
 
 
 ### Aliases
 
-* Edit `%CMDER_ROOT%\config\aliases` to add some [aliases](https://github.com/Starli0n/Tool_Cmder/blob/master/config/aliases)
-* Fixing the [issue](https://github.com/cmderdev/cmder/issues/684) with expanding environment variables in aliases
-    * Backup `%CMDER_ROOT%\vendor\clink`
-    * Replace by [this one](https://www.dropbox.com/sh/hqbrpkf0dpmmizq/AADIJ4G5gjJ59JfFmr-3-Qc0a/20150923_1abb57/clink_DEV.zip?dl=0)
+* Edit `%CMDER_ROOT%\config\user-aliases.cmd` to add some [aliases](https://github.com/Starli0n/Tool_Cmder/blob/master/config/user-aliases.cmd)
+
 
 ### Settings
 
 * `Main > Size & Pos`
+
 ☑ Auto save window size and position on exit
 
 ![Settings-Main](Settings-Main.bmp)
 
 * `Keys & Macro`
-Global Ctrl+² Minimize/Restore (Quake-style hotkey also)
+
+| Type    | Hotkey        | Description                                |
+|---------|---------------|--------------------------------------------|
+| Global  | Ctrl+²        | Minimize/Restore (Quake-style hotkey also) |
+| User    | <None>        | Move active tab leftward                   |
+| User    | <None>        | Move active tab rightward                  |
+| Macro12 | Win+Alt+Left  | Tab(4, -1); Tab(1);                        |
+| Macro13 | Win+Alt+Right | Tab(4, 1); Tab(1);                         |
 
 ![Settings-KeysMacro](Settings-KeysMacro.bmp)
 
@@ -106,6 +71,16 @@ Global Ctrl+² Minimize/Restore (Quake-style hotkey also)
     "remember_open_files": false
 }
 ````
+
+
+### Upgrade
+
+* Backup folder to `%TOOLS%\cmder_mini_bak\`
+* Extract the new exe to `%TOOLS%\cmder_mini\`
+* `> copy %TOOLS%\cmder_mini_bak\config\user-aliases.cmd %TOOLS%\cmder_mini\config\user-aliases.cmd`
+* `> copy %TOOLS%\cmder_mini_bak\config\powerline_prompt.lua %TOOLS%\cmder_mini\config\powerline_prompt.lua`
+* `> echo d | xcopy %TOOLS%\cmder_mini_bak\vendor\SublimeText %TOOLS%\cmder_mini\vendor\SublimeText /e`
+* Apply the settings
 
 ---
 
