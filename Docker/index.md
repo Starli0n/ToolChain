@@ -78,5 +78,5 @@ Backup `rsub` if the VM is recreated `> scp docker@ip:/var/lib/boot2docker/rsub 
 
 ### Aliases
 
-* [Windows](https://github.com/Starli0n/Tool_Cmder/blob/master/config/aliases)
+* [Windows](https://github.com/Starli0n/Tool_Cmder/blob/master/config/user-aliases.cmd)
 * [macOS](https://github.com/Starli0n/SublimeUser/blob/master/Resources/OSX/HOME/.MacOSX/.bashrc)

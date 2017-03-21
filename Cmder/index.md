@@ -40,6 +40,7 @@ layout: default
 | Type    | Hotkey        | Description                                |
 |---------|---------------|--------------------------------------------|
 | Global  | Ctrl+²        | Minimize/Restore (Quake-style hotkey also) |
+| User    | Ctrl+F        | Find text in active console                |
 | User    | <None>        | Move active tab leftward                   |
 | User    | <None>        | Move active tab rightward                  |
 | Macro12 | Win+Alt+Left  | Tab(4, -1); Tab(1);                        |

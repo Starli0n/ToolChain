@@ -70,7 +70,7 @@ Using double click to compare instead of opening <br/>
 
 ### Clean Recent Items
 
-Erase the registry key `[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\MRUItems]` using [`%TOOLS%\System\VSCleanRecent.reg`](https://github.com/Starli0n/Tool_System/blob/master/VSCleanRecent.reg) or the alias [`vsclean`](https://github.com/Starli0n/Tool_Cmder/blob/master/config/aliases)
+Erase the registry key `[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\MRUItems]` using [`%TOOLS%\System\VSCleanRecent.reg`](https://github.com/Starli0n/Tool_System/blob/master/VSCleanRecent.reg) or the alias [`vsclean`](https://github.com/Starli0n/Tool_Cmder/blob/master/config/user-aliases.cmd)
 
 
 ### Extensions
@@ -81,6 +81,7 @@ Erase the registry key `[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0\
 * [CodeMaid](http://www.codemaid.net)
 * [Favorite Documents](https://vlasovstudio.com/favorite-documents)
 * [GitFlow for Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/f5ae0a1d-005f-4a09-a19c-3f46ff30400a)
+* [Go To Definition](https://marketplace.visualstudio.com/items?itemName=NoahRichards.GoToDefinition)
 * [Markdown Editor](https://github.com/madskristensen/MarkdownEditor)
 * [Microsoft Visual Studio Team Foundation Server 2015 Power Tools](https://visualstudiogallery.msdn.microsoft.com/898a828a-af00-42c6-bbb2-530dc7b8f2e1)
 * [MixEdit](http://www.codinglabs.net/MixEdit.aspx)
