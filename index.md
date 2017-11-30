@@ -15,7 +15,7 @@ layout: default
 * [Python27](https://www.python.org)
 * [Visual Studio](VisualStudio)
 * [WinDirStat](https://windirstat.info)
-* [WinMerge](http://winmerge.org) [[git]](https://github.com/Starli0n/SublimeUser/blob/master/Resources/Windows/HOME/.gitconfig) [[st]](https://github.com/Starli0n/SublimeUser#configure-filediff-command-1) [[vs]](https://starli0n.github.io/ToolChain/VisualStudio)
+* [WinMerge](WinMerge) [[git]](https://github.com/Starli0n/SublimeUser/blob/master/Resources/Windows/HOME/.gitconfig) [[st]](https://github.com/Starli0n/SublimeUser#configure-filediff-command-1) [[vs]](https://starli0n.github.io/ToolChain/VisualStudio)
 * [XAMPP](Xampp) [[st]](https://github.com/Starli0n/SublimeUser#win-install-xdebug-with-xampp)
 * [xplorer² lite](http://zabkat.com/x2lite.htm)
 
