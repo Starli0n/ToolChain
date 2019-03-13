@@ -66,11 +66,18 @@ mklink %CMDER_ROOT%\config\powerline_prompt.lua %SUBL_ROOT%\Data\Packages\User\R
 | Macro12 | Win+Alt+Left  | Tab(4, -1); Tab(1);                              |
 | Macro13 | Win+Alt+Right | Tab(4, 1); Tab(1);                               |
 | Macro14 | Ctrl+,        | Settings dialog: Settings()                      |
-| Task    | Ctrl+T        | {cmd::Cmder}                                     |
+| Task    | Ctrl+T        | {cmd::mingw64}                                   |
 
 
 ![Settings-KeysMacro](Settings-KeysMacro.bmp)
 
+* `Startup > Tasks`
+
+	* Create a new task `bash::mingw64`
+	* `/icon "%CMDER_ROOT%\icons\cmder.ico"`
+	* `cmd /k "%ConEmuDir%\..\init.bat & cd %HOME% & bash" -new_console`
+
+![Settings-Tasks](Settings-Tasks.png)
 
 ### Integrate Cmder to Sublime Text
 
